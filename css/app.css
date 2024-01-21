@@ -31,6 +31,48 @@ p , div{
     color: #000000
 }
 
+#home{
+margin-top: -25px;
+}
+.dayProgrammWrapper{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.dayProgramm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+}
+.bold{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+.alignProgrammElement{
+    text-align: left;
+    margin-bottom: -7px;;
+}
+.iconPlusTextWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.iconPlan{
+    margin-right: 55px;
+}
+.iconPlan>img{
+    width: 60px;
+}
+.iconPlanInvite>img{
+    width: 60px;
+}
+.iconPlanInvite{
+    margin-top: 50px;
+}
+
+
 .font-esthetic {
     font-family: "Philosopher", sans-serif;
     font-weight: 700;
@@ -55,7 +97,49 @@ p , div{
     display: inline;
     margin: 0 auto;
     height: auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.cropPrev{
     width: 100%;
+    /*height: 100%;*/
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+.cropPrev>img {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.textAlignWrapper{
+    display: flex;
+    color: #000000;
+    flex-direction: column;
+    align-items: center;
+}
+.textAlign{
+    text-align: center;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.textAlignMessageWidth{
+    width: 50%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.boldInviteFirstSlide{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .btn-music {
@@ -70,7 +154,7 @@ p , div{
     inset: 0 !important;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-image: linear-gradient(to right, #c0c0c0 0%, #f6f6f6 100%);
     /*background-image: url("../assets/images/bgMain.jpeg");*/
     /*background-size: cover;*/
     /*box-shadow: inset 0em 6em 60em 7em #161717;*/
@@ -137,8 +221,8 @@ p , div{
 
 .dark-section {
     background-color: #eeeeee !important;
-    margin-top: -0.5rem;
-    margin-bottom: -0.5rem;
+    /*margin-top: -0.5rem;*/
+    /*margin-bottom: -0.5rem;*/
 }
 
 footer {
@@ -216,3 +300,98 @@ footer {
 /*    width: 50%;*/
 /*    !*height: 30%;*!*/
 /*}*/
+
+.invitewithPhotoWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inviteWithLove{
+    margin-top: 150px;
+}
+.line{
+    margin-top: 2%;
+    width: 100px;
+    border-top: 3px solid #a1a1a1;
+}
+.perpendicular-line {
+    width: 70px;
+    /* margin: auto; */
+    /* height: 35px; */
+    margin-top: 50px;
+    margin-left: -4px;
+    transform: rotate(90deg);
+    border-color: #000000;
+}
+
+@media screen and (max-width: 770px){
+    .textAlignMessageWidth{
+        width: 90%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+}
+@media screen and (min-width: 985px) {
+    .cropPrev>img {
+        align-content: center;
+        width: 100%;
+        display: inline;
+        margin: 0 auto;
+        height: auto;
+        border-radius: 2px;
+
+    }
+    .cropPrev{
+        border-radius: 2px;
+        width: 50%;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+}
+
+.text-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weWillGratefull{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*counter */
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+li {
+    background: rgba(33, 33, 33, 0.04);
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5rem;
+    color: #000000;
+    /*box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);*/
+}
+
+li span {
+    font-size: 2rem;
+}
+
+/*end*/
+
+@media screen and (max-width: 420px){
+    li{
+        margin: 0 0.1rem;
+    }
+}
+
+
+
+
+

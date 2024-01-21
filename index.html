@@ -64,45 +64,46 @@
     <!-- App -->
     <link rel="stylesheet" href="./css/app.css">
     <script src="./js/app.js" defer></script>
+    <script src="./js/counter.js" defer></script>
 </head>
 
 <body style="overflow-y: hidden;">
 
     <!-- Navbar Bottom -->
-    <nav class="navbar lightNav navbar-dark navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menus">
-        <ul class="navbar-nav nav-justified w-100 align-items-center">
-            <li class="nav-item">
-                <a class="nav-link" href="#home">
-                    <i class="fas fa-home"></i>
-                    <span class="d-block" style="font-size: 0.7rem;">Начало</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#mempelai">
-                    <i class="fa-solid fa-user-group"></i>
-                    <span class="d-block" style="font-size: 0.7rem;">Молодожёны</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#tanggal">
-                    <i class="fa-solid fa-calendar-check"></i>
-                    <span class="d-block" style="font-size: 0.7rem;">Календарь</span>
-                </a>
-            </li>
+<!--    <nav class="navbar lightNav navbar-dark navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menus">-->
+<!--        <ul class="navbar-nav nav-justified w-100 align-items-center">-->
 <!--            <li class="nav-item">-->
-<!--                <a class="nav-link" href="#galeri">-->
-<!--                    <i class="fa-solid fa-images"></i>-->
-<!--                    <span class="d-block" style="font-size: 0.7rem;">Галерея</span>-->
+<!--                <a class="nav-link" href="#home">-->
+<!--                    <i class="fas fa-home"></i>-->
+<!--                    <span class="d-block" style="font-size: 0.7rem;">Начало</span>-->
 <!--                </a>-->
 <!--            </li>-->
 <!--            <li class="nav-item">-->
-<!--                <a class="nav-link" href="#ucapan">-->
-<!--                    <i class="fa-solid fa-comments"></i>-->
-<!--                    <span class="d-block" style="font-size: 0.7rem;">Ucapan</span>-->
+<!--                <a class="nav-link" href="#mempelai">-->
+<!--                    <i class="fa-solid fa-user-group"></i>-->
+<!--                    <span class="d-block" style="font-size: 0.7rem;">Молодожёны</span>-->
 <!--                </a>-->
 <!--            </li>-->
-        </ul>
-    </nav>
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#tanggal">-->
+<!--                    <i class="fa-solid fa-calendar-check"></i>-->
+<!--                    <span class="d-block" style="font-size: 0.7rem;">Календарь</span>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--&lt;!&ndash;            <li class="nav-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                <a class="nav-link" href="#galeri">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <i class="fa-solid fa-images"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <span class="d-block" style="font-size: 0.7rem;">Галерея</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                </a>&ndash;&gt;-->
+<!--&lt;!&ndash;            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li class="nav-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                <a class="nav-link" href="#ucapan">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <i class="fa-solid fa-comments"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <span class="d-block" style="font-size: 0.7rem;">Ucapan</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                </a>&ndash;&gt;-->
+<!--&lt;!&ndash;            </li>&ndash;&gt;-->
+<!--        </ul>-->
+<!--    </nav>-->
 
     <!-- Main Content -->
     <main class="text-light" data-bs-spy="scroll" data-bs-target="#navbar-menus" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
@@ -110,30 +111,51 @@
         <!-- Home -->
         <section class="container" id="home">
 
-            <div class="text-center pt-4">
-                <h1 class="font-esthetic my-4" style="font-size: 2.5rem;">ПРИГЛАШАЕМ ТЕБЯ НА НАШУ СВАДЬБУ</h1>
+            <div class=" invitewithPhotoWrapper">
+                <div class="textAlignWrapper">
+                    <div class="textAlign">
+                        <h1 class="font-esthetic my-4 " data-aos="fade-right" data-aos-duration="2800" style="font-size: 2.8rem;">ДОРОГИЕ ГОСТИ</h1>
+                        <h2 data-aos="fade-right" data-aos-duration="2300">МЫ ЖЕНИМСЯ!</h2>
+                        <div class="line"></div>
+                        <div class="textAlignMessageWidth"> Это радостное событие мы хотим отметить в кругу самых близких для нас людей.
+                            Будем очень рады, если в этот день вы сможете присутствовать на нашем празднике.
+                        </div>
+                        <div class="boldInviteFirstSlide">Свадьба состоится </div>
+                        <div class="boldInviteFirstSlide">5 апреля 2024 года</div>
+                        <div class="d-flex justify-content-center align-items-center mt-4 mb-2 ">
+                            <div class="mouse-animation">
+                                <div class="scroll-animation"></div>
+                            </div>
+                        </div>
 
-                <div class="py-4">
-                    <div class="img-crop border border-3 border-light shadow mx-auto">
-                        <img src="./assets/images/photo_2.jpeg" alt="bg" onclick="util.modal(this)">
+                        <p >Листай вниз</p>
+
                     </div>
-<!--                    <img src="./assets/images/photo_2.jpeg" width="500" alt="my">-->
+
+
                 </div>
 
-                <h1 class="font-esthetic my-4" style="font-size: 3rem;">ДАРЬЯ И БОГДАН</h1>
+
+
+<!--                    <div class="img-crop border border-3 border-light shadow mx-auto">-->
+<!--                        <img src="./assets/images/photo_1.jpeg" alt="bg" onclick="util.modal(this)">-->
+<!--                    </div>-->
+
+                    <div class="cropPrev " data-aos="fade-up" data-aos-duration="2800">
+                        <img src="./assets/images/photo_1.jpeg" alt="bg" onclick="util.modal(this)">
+                    </div>
+                <br>
+<!--                    <img src="./assets/images/photo_2.jpeg" width="500" alt="my">-->
+
+
+<!--                <h1 class="font-esthetic my-4" style="font-size: 3rem;">ДАРЬЯ И БОГДАН</h1>-->
 <!--                <p class="mb-0" style="font-size: 1.5rem;">Когда, 5 Апреля 2024</p>-->
 
 <!--                <a class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Wedding%20of%20Wahyu%20and%20Riski&details=The%20Wedding%20of%20Wahyu%20and%20Riski%20%7C%2015%20Maret%202023%20%7C%20RT%2010%20RW%2002,%20Desa%20Pajerukan,%20Kec.%20Kalibagor,%20Kab.%20Banyumas,%20Jawa%20Tengah%2053191%20%7C%2010.00%20-%2011.00%20WIB&dates=20230315T100000/20230315T110000&location=https://goo.gl/maps/ALZR6FJZU3kxVwN86">-->
 <!--                    <i class="fa-solid fa-calendar-check me-2"></i>Сохрани дату-->
 <!--                </a>-->
 
-                <div class="d-flex justify-content-center align-items-center mt-4 mb-2">
-                    <div class="mouse-animation">
-                        <div class="scroll-animation"></div>
-                    </div>
-                </div>
 
-                <p >Листай вниз</p>
             </div>
         </section>
 
@@ -146,34 +168,87 @@
         <section class="dark-section" id="mempelai">
 
             <div class="text-center">
-                <h1 class="font-arabic py-4 px-2" style="font-size: 2rem">Дорогие гости!</h1>
-                <h1 class="font-esthetic py-4 px-2" style="font-size: 2rem">МЫ ЖЕНИМСЯ!</h1>
+                <h1 class="font-esthetic py-4 px-2" style="font-size: 2.5rem">Программа дня</h1>
+                <div class="dayProgrammWrapper">
 
-                <p class="pb-3 px-3">
-                    В нашей жизни предстоят счастливые перемены!<br> Мы хотим, чтобы в этот день рядом с нами были самые близкие и дорогие для нас люди.
-                    <br>
-                    Будем рады разделить с вами чудесный праздник в день нашей свадьбы.
-                </p>
-
-                <div class="overflow-x-hidden">
-
-                    <div data-aos="fade-right" data-aos-duration="2000">
-                        <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
-                            <img src="./assets/images/cowo.jpeg" alt="cowo" onclick="util.modal(this)">
+                    <div class="iconPlusTextWrapper" data-aos="fade-right" data-aos-duration="2200"><div class="iconPlan"><img src="./assets/images/placeIcons/place.png" alt="place"></div>
+                        <div class="dayProgramm">
+                            <div class="bold">14:20</div>
+                            <div class="alignProgrammElement">Сбор гостей около ЗАГСа по адресу: г. Гродно, пл. Тызенгауза, 2/2</div>
                         </div>
-                        <h1 class="font-esthetic" style="font-size: 3rem;">Богдан</h1>
+                    </div>
+                    <hr class="perpendicular-line">
+                    <div class="iconPlusTextWrapper"><div class="iconPlan"><img src="./assets/images/placeIcons/ceremony.png" alt="place"></div>
+                        <div class="dayProgramm">
+                            <div class="bold">14:45</div>
+                            <div class="alignProgrammElement"> Свадебная церемония в Гродненском Доме Тызенгауза</div>
+                        </div>
+                    </div>
+                    <hr class="perpendicular-line">
+                    <div class="iconPlusTextWrapper" data-aos="fade-right" data-aos-duration="2800"><div class="iconPlan"><img src="./assets/images/placeIcons/place2.png" alt="place"></div>
+                        <div class="dayProgramm">
+                            <div class="bold">15:45</div>
+                            <div class="alignProgrammElement">Сбор гостей в ресторане «Станиславский» по адресу: г. Гродно, ул. Студенческая, 2</div>
+                        </div>
+                    </div>
+                    <hr class="perpendicular-line">
+                    <div class="iconPlusTextWrapper"><div class="iconPlan"><img src="./assets/images/placeIcons/brindisi.png" alt="place"></div>
+                        <div class="dayProgramm">
+                            <div class="bold">16:00</div>
+                            <div class="alignProgrammElement">Фуршет</div>
+                        </div>
+                    </div>
+                    <hr class="perpendicular-line">
+                    <div class="iconPlusTextWrapper" data-aos="fade-right" data-aos-duration="2800"><div class="iconPlan"><img src="./assets/images/placeIcons/lovestory.png" alt="place"></div>
+                        <div class="dayProgramm">
+                            <div class="bold">17:00</div>
+                            <div class="alignProgrammElement">Церемония «Love story»</div>
+                        </div>
+                    </div>
+                    <hr class="perpendicular-line">
+                    <div class="iconPlusTextWrapper"><div class="iconPlan"><img src="./assets/images/placeIcons/banquet.png" alt="place"></div>
+                        <div class="dayProgramm">
+                            <div class="bold">17:30</div>
+                            <div class="alignProgrammElement">Свадебный банкет </div>
+                        </div>
+                    </div>
+                    <hr class="perpendicular-line">
+                    <div class="iconPlusTextWrapper" data-aos="fade-right" data-aos-duration="2800"><div class="iconPlan"><img src="./assets/images/placeIcons/end.png" alt="place"></div>
+                        <div class="dayProgramm">
+                            <div class="bold">22:30</div>
+                            <div class="alignProgrammElement">Окончание мероприятия</div>
+                        </div>
                     </div>
 
-                    <h1 class="font-esthetic my-4" style="font-size: 4rem;">&</h1>
 
-                    <div data-aos="fade-left" data-aos-duration="2000">
-                        <div class="img-crop border border-3 border-light shadow my-4 mx-auto">
-                            <img src="./assets/images/cewe.jpeg" alt="cewe" onclick="util.modal(this)">
-                        </div>
-                        <h1 class="font-esthetic" style="font-size: 3rem;">Дарья</h1>
 
-                    </div>
                 </div>
+
+<!--                <p class="pb-3 px-3">-->
+<!--                    В нашей жизни предстоят счастливые перемены!<br> Мы хотим, чтобы в этот день рядом с нами были самые близкие и дорогие для нас люди.-->
+<!--                    <br>-->
+<!--                    Будем рады разделить с вами чудесный праздник в день нашей свадьбы.-->
+<!--                </p>-->
+
+<!--                <div class="overflow-x-hidden">-->
+
+<!--                    <div data-aos="fade-right" data-aos-duration="2000">-->
+<!--                        <div class="img-crop border border-3 border-light shadow my-4 mx-auto">-->
+<!--                            <img src="./assets/images/cowo.jpeg" alt="cowo" onclick="util.modal(this)">-->
+<!--                        </div>-->
+<!--                        <h1 class="font-esthetic" style="font-size: 3rem;">Богдан</h1>-->
+<!--                    </div>-->
+
+<!--                    <h1 class="font-esthetic my-4" style="font-size: 4rem;">&</h1>-->
+
+<!--                    <div data-aos="fade-left" data-aos-duration="2000">-->
+<!--                        <div class="img-crop border border-3 border-light shadow my-4 mx-auto">-->
+<!--                            <img src="./assets/images/cewe.jpeg" alt="cewe" onclick="util.modal(this)">-->
+<!--                        </div>-->
+<!--                        <h1 class="font-esthetic" style="font-size: 3rem;">Дарья</h1>-->
+
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </section>
 
@@ -182,29 +257,57 @@
             <path fill="#eeeeee" fill-opacity="1" d="M0,192L40,181.3C80,171,160,149,240,149.3C320,149,400,171,480,165.3C560,160,640,128,720,128C800,128,880,160,960,186.7C1040,213,1120,235,1200,218.7C1280,203,1360,149,1400,122.7L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
         </svg>
 
-        <!-- Firman Allah Subhanahu Wa Ta'ala -->
+
         <div class="container">
-            <div class="text-center" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="text-center" data-aos="fade-up" data-aos-duration="2000">
 
-                <h1 class="font-esthetic mt-0 mb-3" style="font-size: 2rem">
-                    Дресс-код
-                </h1>
+                            <h1 class="font-esthetic mt-0 mb-3" style="font-size: 2.5rem">
+                               Присутствие на торжестве
+                            </h1>
 
-                <p style="font-size: 0.9rem;" class="px-2">
-                    Нам будет очень приятно, если вы учтете наши пожелания и при <br> выборе одежды предпочтёте вечерние наряды в представленной
-                    <br> ниже гамме:
-                </p>
-                <div class="colWrapp">
-                    <div class="col1"></div>
-                    <div class="col2"></div>
-                    <div class="col3"></div>
-                    <div class="col4"></div>
-                    <div class="col5"></div>
-                </div>
+                            <p style="font-size: 1rem;" class="px-2">
+                                Подтвердите, пожалуйста, своё присутствие на торжестве
+                            </p>
+                            <br>
+                            <p style="font-size: 0.9rem;" class="px-2">
+                                Будем ждать ответ до 20.04.2024
+                            </p>
+                            <br>
+                            <br>
+                            <p style="font-size: 0.8rem;" class="px-2">
+                                Для подтверждения перейди по ссылке ниже и заполни форму из пары важных  <br>  вопросов, которые помогут нам организовать всё на высшем уровне!
+                            </p>
+                            <a style="text-decoration: none" href="https://forms.gle/JvH9Ghaoe7cBagz1A" target="_blank">
+                                <div class="iconPlanInvite"><img src="./assets/images/placeIcons/confirm.png" alt="place"></div>
+                                <div style="font-size: 0.9rem;" class="px-2">
+                                    Кликни по мне!
+                                </div>
+                               </div>
+                            </a>
+                    </div>
 
 
-            </div>
-        </div>
+
+        <!-- dress code -->
+<!--        <div class="container">-->
+<!--            <div class="text-center" data-aos="fade-up" data-aos-duration="2000">-->
+
+<!--                <h1 class="font-esthetic mt-0 mb-3" style="font-size: 2rem">-->
+<!--                    Дресс-код-->
+<!--                </h1>-->
+
+<!--                <p style="font-size: 0.9rem;" class="px-2">-->
+<!--                    Нам будет очень приятно увидеть вас в ваших красивых платьях и костюмах в которых вам будет комфортно.-->
+<!--                </p>-->
+<!--&lt;!&ndash;                <div class="colWrapp">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="col1"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="col2"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="col3"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="col4"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="col5"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--            </div>-->
+<!--        </div>-->
 
         <!-- Wave Separator -->
         <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -217,7 +320,17 @@
             <div class="container">
                 <div class="text-center">
 
-                    <h1 class="font-esthetic py-3" style="font-size: 2rem;">Дата и место</h1>
+                    <h1 class="font-esthetic py-3" style="font-size: 2.5rem;">Обратный отсчёт</h1>
+
+                    <div>
+                        <p id="done"></p>
+                        <ul>
+                            <li><span id="days">0</span> Дни</li>
+                            <li><span id="hours">0</span> Часы</li>
+                            <li><span id="minutes">0</span> Минуты</li>
+                            <li><span id="seconds">0</span> Секунды</li>
+                        </ul>
+                    </div>
 <!--                    <div class="border rounded-pill shadow py-2 px-4 mx-2 mb-4">-->
 
 <!--                        &lt;!&ndash; Ganti waktunya pada data-waktu (sesuai format tersebut) &ndash;&gt;-->
@@ -236,26 +349,26 @@
 <!--                            </div>-->
 <!--                        </div>-->
 <!--                    </div>-->
-                    <p class="mb-0" style="font-size: 1.5rem;">5 Апреля 2024</p>
+<!--                    <p class="mb-0" style="font-size: 1.5rem;">5 Апреля 2024</p>-->
 <!--                    <p style="font-size: 0.9rem;" class="mt-4 py-2">-->
 <!--                        Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, insyaAllah kami akan menyelenggarakan-->
 <!--                        acara :-->
 <!--                    </p>-->
-<br><br>
-                    <div class="overflow-x-hidden">
-                        <div class="py-2" data-aos="fade-left" data-aos-duration="1500">
-                            <h1 class="font-esthetic" style="font-size: 2rem;">Начало церемонии в ЗАГС</h1>
-                            <p>14.00 - общий сбор <br>
-                                14.30 - Начало церемонии</p>
-                            <p>дворец Тизенгауса (площадь Ленина)</p>
-                        </div>
-                        <br>
-                        <div class="py-2" data-aos="fade-right" data-aos-duration="1500">
-                            <h1 class="font-esthetic" style="font-size: 2rem;">РЕСТОРАН</h1>
-                            <p>  16.00 - Начало празднования в ресторане</p>
-                            <p> ул. Такаято 32</p>
-                        </div>
-                    </div>
+<!--<br><br>-->
+<!--                    <div class="overflow-x-hidden">-->
+<!--                        <div class="py-2" data-aos="fade-left" data-aos-duration="1500">-->
+<!--                            <h1 class="font-esthetic" style="font-size: 2rem;">Начало церемонии в ЗАГС</h1>-->
+<!--                            <p>14.00 - общий сбор <br>-->
+<!--                                14.30 - Начало церемонии</p>-->
+<!--                            <p>дворец Тизенгауса (площадь Ленина)</p>-->
+<!--                        </div>-->
+<!--                        <br>-->
+<!--                        <div class="py-2" data-aos="fade-right" data-aos-duration="1500">-->
+<!--                            <h1 class="font-esthetic" style="font-size: 2rem;">РЕСТОРАН</h1>-->
+<!--                            <p>  16.00 - Начало празднования в ресторане</p>-->
+<!--                            <p> ул. Такаято 32</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
 
 <!--                    <div class="py-2" data-aos="fade-up" data-aos-duration="1500">-->
 <!--                        <a href="https://goo.gl/maps/ALZR6FJZU3kxVwN86" target="_blank" class="btn btn-outline-light btn-sm rounded-pill shadow-sm mb-2 px-3">-->
@@ -348,18 +461,29 @@
         <section >
             <div class="container">
                 <div class="inviteWrapper">
-                    <div class="boldInvite font-esthetic">Подтвердите пожалуйста cвоё присутствие на торжестве</div>
-                    <br>
-                    <br>
-                    <div>Для подтверждения вашего визита просим сообщить о вашем присутствии следующим способом :</div>
-                    <br>
-                    <div class="socialWrapper">
-                        <div>Telegram</div>
-                        <div>Instagram</div>
+
+                    <div class="cropPrev " data-aos="fade-up" data-aos-duration="2800">
+                        <img src="./assets/images/photo_2.jpeg" alt="bg" onclick="util.modal(this)">
                     </div>
-                    <br>
-                    <br>
-                    <div>Мы будем ждать от вас ответ до 15/03/2024</div>
+                    <h1 class="font-esthetic py-3 weWillGratefull" style="font-size: 2.6rem;">МЫ БУДЕМ СЧАСТЛИВЫ<br> ВИДЕТЬ ВАС!</h1>
+
+<!--                    <div class="boldInvite font-esthetic">Подтвердите пожалуйста cвоё присутствие на торжестве</div>-->
+<!--                    <br>-->
+<!--                    <br>-->
+<!--                    <div>Для подтверждения вашего визита просим сообщить о вашем присутствии следующим способом :</div>-->
+<!--                    <br>-->
+<!--                    <div class="socialWrapper">-->
+<!--                        <div>-->
+<!--                            <a href="https://forms.gle/JvH9Ghaoe7cBagz1A"> Клик Сюда!</a>-->
+<!--                        </div>-->
+
+<!--                        <div><a href="">Telegram</a></div>-->
+<!--                        <div><a href="">Instagram</a></div>-->
+<!--                    </div>-->
+<!--                    <br>-->
+<!--                    <br>-->
+<!--                    <div>Мы будем ждать от вас ответ до 15/03/2024</div>-->
+<!--                    <div class="inviteWithLove">С любовью, Богдан и Дарья.</div>-->
                 </div>
             </div>
         </section>
@@ -486,10 +610,10 @@
         <div class="container">
             <div class="text-center">
 
-                <p style="font-size: 0.9rem;" class="pt-2 pb-1 px-2" data-aos="fade-up" data-aos-duration="1500">
-                    Для нас это честь и счастье пригласить именно тебя на этот праздник !
-                    Заранее спасибо, что придёте разделить вместе с нами этот важный момент.
-                </p>
+<!--                <p style="font-size: 0.9rem;" class="pt-2 pb-1 px-2" data-aos="fade-up" data-aos-duration="1500">-->
+<!--                    Для нас это честь и счастье пригласить именно тебя на этот праздник !-->
+<!--                    Заранее спасибо, что придёте разделить вместе с нами этот важный момент.-->
+<!--                </p>-->
 
 <!--                <h1 class="font-esthetic" data-aos="fade-up" data-aos-duration="2000">Wassalamualaikum Warahmatullahi Wabarakatuh</h1>-->
 <!--                <h1 class="font-arabic py-4 px-2" data-aos="fade-up" data-aos-duration="2000" style="font-size: 2rem">اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ</h1>-->
@@ -499,7 +623,7 @@
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="col-auto">
                         <small >
-                            Build with<i class="fa-solid fa-heart mx-1"></i> by Bogdanchik
+                            Made with<i class="fa-solid fa-heart mx-1"></i> by Bogdanchik
                         </small>
                     </div>
                 </div>
