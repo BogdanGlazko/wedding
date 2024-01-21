@@ -84,6 +84,22 @@ margin-top: -25px;
     font-family: 'Noto Naskh Arabic', serif !important;
     color: #1c1c1c !important;
 }
+.img-cropWelcomePage{
+    width: 100%;
+    width: 14rem;
+    height: 14rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.img-cropWelcomePage>img {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
 
 .img-crop {
     width: 14rem;
@@ -221,8 +237,8 @@ margin-top: -25px;
 
 .dark-section {
     background-color: #eeeeee !important;
-    /*margin-top: -0.5rem;*/
-    /*margin-bottom: -0.5rem;*/
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
 }
 
 footer {
