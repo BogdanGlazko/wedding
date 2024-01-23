@@ -3,16 +3,26 @@ html {
 }
 
 body {
-    font-family: "Comfortaa", sans-serif !important;
+    font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
     font-style: normal;
+    font-size: 19px;
+    font-weight: 400;
     padding: 0 !important;
     -ms-overflow-style: none !important;
     scrollbar-width: none !important;
     background-color: #ffffff !important;
     color: #000000
 }
+.ebGaramond{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: #000000
+}
+
 .lightNav{
     background-color: #c4c4c4;
 }
@@ -72,7 +82,11 @@ margin-top: -25px;
     position: absolute;
     transform-origin: 50% 50%;
 }
+.scrollJustify{
+    display: flex;
+    flex-direction: column;
 
+}
 .dayProgrammWrapper{
     display: flex;
     flex-direction: column;
@@ -119,15 +133,21 @@ margin-top: -25px;
 
 
 .font-esthetic {
-    font-family: "Philosopher", sans-serif;
-    font-weight: 700;
-    font-style: normal;
     color: #000000 !important;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 3px;
+    font-style: normal;
+
 }
 
-.font-arabic {
-    font-family: 'Noto Naskh Arabic', serif !important;
-    color: #1c1c1c !important;
+.font-cormorant {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    color: #000000 !important;
 }
 .img-cropWelcomePage{
     width: 100%;
@@ -164,7 +184,7 @@ margin-top: -25px;
 }
 .cropPrev{
     width: 100%;
-    margin-bottom: -170px;
+    margin-bottom: 50px;
     position: relative;
     overflow: hidden;
     border-radius: 2px;
@@ -216,7 +236,7 @@ margin-top: -25px;
 }
 .boldInviteFirstSlide{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .btn-music {
@@ -255,7 +275,8 @@ margin-top: -25px;
     box-sizing: content-box;
 }
 .smallText{
-    font-size: 12px;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 @keyframes scroll {
@@ -385,6 +406,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: -110px;
 }
 .inviteWithLove{
     margin-top: 150px;
@@ -419,7 +441,13 @@ hr {
         margin-top: 3%;
     }
     .cropPrev{
-        margin-bottom: -80px;
+        margin-bottom: 10px;
+    }
+    .invitewithPhotoWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: -70px;
     }
 }
 @media screen and (min-width: 985px) {
@@ -438,6 +466,7 @@ hr {
         box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
         /*margin-bottom: -80px;*/
     }
+
 }
 
 .text-center{
