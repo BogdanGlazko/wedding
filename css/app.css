@@ -510,12 +510,15 @@ li span {
     li{
         margin: 0 0.1rem;
     }
+}
+
+@media screen and (max-width: 480px){
     .iconPlusTextWrapper {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         padding-top: 8%;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
     }
 }
 
