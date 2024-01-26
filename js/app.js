@@ -388,7 +388,7 @@ const session = (() => {
                 }
             })
             .catch((err) => {
-                alert(`Terdapat kesalahan: ${err}`);
+                alert(`error ${err}`);
                 window.location.reload();
                 return;
             });
@@ -422,7 +422,7 @@ const like = (() => {
         let id = button.getAttribute('data-uuid');
 
         if (!token) {
-            alert('Terdapat kesalahan, token kosong !');
+            alert('Error !');
             window.location.reload();
             return;
         }
@@ -447,7 +447,7 @@ const like = (() => {
                     }
                 })
                 .catch((err) => {
-                    alert(`Terdapat kesalahan: ${err}`);
+                    alert(`erroe ${err}`);
                 });
 
         } else {
