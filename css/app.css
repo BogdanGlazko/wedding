@@ -2,7 +2,7 @@
 .cater3-movingBG {
     height: 100%;
     background-image: url("../assets/images/bg4.jpg");
-    background-size: 330%;
+    background-size: 110%;
     background-repeat: repeat-x;
     /*background-repeat: repeat-y;*/
     animation: animatedBackground 60s linear alternate infinite;
@@ -676,7 +676,7 @@ li span {
     }
     .cater3-movingBG {
         animation: animatedBackground 20s linear infinite reverse;
-        background-size: 277%;
+        background-size: 280%;
 
     }
 }
