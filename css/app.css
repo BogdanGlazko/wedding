@@ -566,6 +566,11 @@ li span {
         padding-top: 8%;
         margin-bottom: 12%;
     }
+    .cropPrev, .cropPrevBottom{
+        width: 110%;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        /*margin-bottom: -80px;*/
+    }
 }
 
 
@@ -575,7 +580,7 @@ li span {
 /*backgroung*/
 .cater3-movingBG {
     height: 100%;
-    background-image: url("../assets/images/bgMain.jpeg");
+    background-image: url("../assets/images/bg3.jpg");
     background-size: 330%;
     background-repeat: repeat-x;
     /*background-repeat: repeat-y;*/
