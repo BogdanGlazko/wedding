@@ -566,11 +566,6 @@ li span {
         padding-top: 8%;
         margin-bottom: 12%;
     }
-    .cropPrev, .cropPrevBottom{
-        width: 110%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        /*margin-bottom: -80px;*/
-    }
 }
 
 
