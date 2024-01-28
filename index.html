@@ -52,41 +52,6 @@
 
 <body style="overflow-y: hidden;">
 
-    <!-- Navbar Bottom -->
-<!--    <nav class="navbar lightNav navbar-dark navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menus">-->
-<!--        <ul class="navbar-nav nav-justified w-100 align-items-center">-->
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link" href="#home">-->
-<!--                    <i class="fas fa-home"></i>-->
-<!--                    <span class="d-block" style="font-size: 0.7rem;">Начало</span>-->
-<!--                </a>-->
-<!--            </li>-->
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link" href="#mempelai">-->
-<!--                    <i class="fa-solid fa-user-group"></i>-->
-<!--                    <span class="d-block" style="font-size: 0.7rem;">Молодожёны</span>-->
-<!--                </a>-->
-<!--            </li>-->
-<!--            <li class="nav-item">-->
-<!--                <a class="nav-link" href="#tanggal">-->
-<!--                    <i class="fa-solid fa-calendar-check"></i>-->
-<!--                    <span class="d-block" style="font-size: 0.7rem;">Календарь</span>-->
-<!--                </a>-->
-<!--            </li>-->
-<!--&lt;!&ndash;            <li class="nav-item">&ndash;&gt;-->
-<!--&lt;!&ndash;                <a class="nav-link" href="#galeri">&ndash;&gt;-->
-<!--&lt;!&ndash;                    <i class="fa-solid fa-images"></i>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <span class="d-block" style="font-size: 0.7rem;">Галерея</span>&ndash;&gt;-->
-<!--&lt;!&ndash;                </a>&ndash;&gt;-->
-<!--&lt;!&ndash;            </li>&ndash;&gt;-->
-<!--&lt;!&ndash;            <li class="nav-item">&ndash;&gt;-->
-<!--&lt;!&ndash;                <a class="nav-link" href="#ucapan">&ndash;&gt;-->
-<!--&lt;!&ndash;                    <i class="fa-solid fa-comments"></i>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <span class="d-block" style="font-size: 0.7rem;">Ucapan</span>&ndash;&gt;-->
-<!--&lt;!&ndash;                </a>&ndash;&gt;-->
-<!--&lt;!&ndash;            </li>&ndash;&gt;-->
-<!--        </ul>-->
-<!--    </nav>-->
 
     <!-- Main Content -->
     <main class="text-light" data-bs-spy="scroll" data-bs-target="#navbar-menus" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
@@ -105,7 +70,6 @@
                         </div>
                         <div class="boldInviteFirstSlide font-esthetic">Свадьба состоится <br> 5 апреля 2024 года </div>
 <!--                        <div class="boldInviteFirstSlide">5 апреля 2024 года</div>-->
-
 
                     </div>
                     <br>
@@ -360,23 +324,39 @@
     </footer>
 
     <!-- Welcome Page -->
+
+
+
     <div class="loading-page" id="welcome" style="opacity: 1;">
-        <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
-
-            <div class="text-center">
-                <h1 class="font-cormorant mb-4" style="font-size: 2.5rem;">Свадьба</h1>
-
-                <div class="img-cropWelcomePage border border-3 border-light shadow mb-4 mx-auto">
-                    <img src="./assets/images/bg.jpeg" alt="bg">
+        <div class="cater3-movingBG">
+            <div class="flyinTxtCont">
+                <div class="flyIn lineOne"><div >Свадьба</div></div>
+                <div class="flyIn lineTwo">  <div >Богдана и Дарьи</div>
+                    <div id="nama-tamu"></div>
                 </div>
-
-                <h1 class="font-cormorant my-4" style="font-size: 2.5rem;">Богдана и Дарьи</h1>
-                <div id="nama-tamu"></div>
-
-                <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="util.buka(this)">
-                    ОТКРЫТЬ ПРИГЛАШЕНИЕ
-                </button>
+                <div class="flyIn lineThree">
+                    <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="util.buka(this)">ОТКРЫТЬ ПРИГЛАШЕНИЕ</button>
+                </div>
             </div>
+        </div>
+
+        <!--        <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">-->
+<!--            <div class="text-center">-->
+<!--           -->
+
+<!--&lt;!&ndash;                <h1 class="font-cormorant mb-4" style="font-size: 2.5rem;">Свадьба</h1>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <div class="img-cropWelcomePage border border-3 border-light shadow mb-4 mx-auto">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <img src="./assets/images/bg.jpeg" alt="bg">&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <h1 class="font-cormorant my-4" style="font-size: 2.5rem;">Богдана и Дарьи</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;                <div id="nama-tamu"></div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="util.buka(this)">&ndash;&gt;-->
+<!--&lt;!&ndash;                    ОТКРЫТЬ ПРИГЛАШЕНИЕ&ndash;&gt;-->
+<!--&lt;!&ndash;                </button>&ndash;&gt;-->
+<!--            </div>-->
         </div>
     </div>
 
@@ -404,6 +384,7 @@
     </div>
 
     <!-- Modal Foto Large -->
+
     <div class="modal fade" id="modal-image" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
