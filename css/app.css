@@ -11,7 +11,7 @@
 @keyframes animatedBackground {
     0% { background-position: 0 0; }
     50% { background-position: 90% 0; }
-    100% { background-position: 31% 0; }
+    100% { background-position: 70% 0; }
 }
 
 .flyinTxtCont {
@@ -677,7 +677,7 @@ li span {
     .cater3-movingBG {
         animation: animatedBackground 50s linear infinite reverse;
         background-size: 280%;
-        background-image: url("../assets/images/bg4.jpg");
+        background-image: url("../assets/images/bg2.jpg");
 
     }
 }
